@@ -23,14 +23,14 @@ int main(int argc, char *argv[]){
 
     for(int i=0;i<1;i++){
         cout<<"Nombre: ";
-        cin.getline(apuntador->nombre,20,'\n');
+        cin.getline(C1[i].nombre,20,'\n');
         cout<<"Edad: ";
-        cin>>apuntador->edad;
+        cin>>C1[i].edad;
         cout<<"Años de antiguedad de ser cliente: ";
-        cin>>apuntador->antiguedad;
+        cin>>C1[i].antiguedad;
         cout<<"Nombre del producto: ";
         fflush(stdin);
-        cin.getline(apuntador->pro.name,20,'\n');
+        cin.getline(C1[i].pro.name,20,'\n');
     }
     cout<<endl<<"Nombre del cliente: "<<apuntador->nombre;
     cout<<endl<<"Edad del cliente: "<<apuntador->edad;
